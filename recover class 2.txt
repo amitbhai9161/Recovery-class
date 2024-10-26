@@ -1,0 +1,100 @@
+table;
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+</head>
+<body>
+    <table border="2px" bgcolor="yellow" bordercolor="red" cellpadding="20p" cellspacing="3px"
+    align="center" width="400px" height="422px" >
+
+        <tr>
+            <th rowspan="3">id</th>
+            <th>name</th>
+            <th bgcolor="blue">mobile</th>
+        </tr>
+        <tr align="center">
+            
+            <td>amit</td>
+            <td bgcolor="pink">9161128047</td>
+        </tr>
+        <tr align="center">
+            
+
+           
+            <td colspan="2">shiva</td>
+            
+        </tr>
+    </table>
+<br>
+
+    <table  align="center" bgcolor="pink" border="1px">
+        <tr>
+            <th>id</th>
+            <th>100</th>
+            <th>101</th>
+            <th>102</th>
+        </tr>
+        <tr>
+            <th>name</th>
+            <td>amit</td>
+            <td>santosh</td>
+            <td>shiva</td>
+        </tr>
+    </table>
+</body>
+</html>
+
+
+form;
+input type attribute:
+id="7" class="" value="" readonly="" size=""/>
+
+input box
+<input type=""/>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    
+<form >
+name<input type=""/><br><br>
+email<input type="email"/><br><br>
+password<input type="password"/><br>
+mobail<input type="number"/><br>
+date of birth<input type="date"/><br>
+time<input type="time"/><br>
+gender<input type="radio" name="gnd"/>male
+<input type="radio" name="gnd"/><br><br>
+hobby<input type="checkbox"/>cricket
+<input type="checkbox"/>hocky
+<input type="checkbox"/>football<br>
+
+
+address <textarea>hadvvvvvvvvvvg</textarea><br><br>
+city <select>
+    <option>basti</option>
+    <option>bhanpur</option>
+    <option>bansi</option>
+</select><br><br>
+<input type="file"><br>
+<br>
+<input type="submit"><br><br>
+<input type="reset"><br><br>
+<input type="button" value="Registration"><br><Br>
+
+<button > submit</button>
+
+</form>
+
+</body>
+</html>

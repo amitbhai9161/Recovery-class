@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css menu</title>
+    <style>
+*{
+    margin: 0px;
+    padding: 0px;
+}
+        ul{
+            list-style-type: none;
+        }
+        ul li{
+            height: 50px;
+            width: 200px;
+            background: yellow;
+            float:left;
+            text-align: center;
+
+        }
+        ul li a{
+            text-decoration: none;
+            line-height: 50px;
+            font-size: 22px;
+            font-weight: bold;
+        }
+        ul li a:hover{
+            background: green;
+            color: aliceblue;
+            display: block;
+        }
+        ul ul{
+            display: none;
+
+        }
+        ul li:hover>ul{
+            display: block;
+        }
+        ul ul ul{
+            margin-left: 200px;
+            margin-top: -50px;
+        }
+    </style>
+</head>
+<body>
+    
+    <ul>
+        <li><a href="">home</a></li>
+        <li><a href="">about</a></li>
+        <li><a href="">gallery</a> 
+        <ul>
+            <li><a href=""></a>image</li>
+            <li><a href="">video</a>
+            <ul>
+                <li><a href="">4K</a></li>
+                <li><a href="">HD</a></li>
+            </ul>
+            </li>
+        </ul></li>
+        <li><a href="">contact</a></li>
+        <li><a href="">ragiste</a>r</li>
+    </ul>
+</body>
+</html>
